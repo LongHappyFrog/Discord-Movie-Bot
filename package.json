@@ -1,0 +1,38 @@
+{
+  "name": "typescript-port",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node-dev main.ts",
+    "startr": "ts-node-dev --respawn main.ts",
+    "build": "tsc",
+    "guild-commands": "ts-node-dev ./scripts/guild-deploy-commands.ts",
+    "global-commands": "ts-node-dev ./scripts/global-deploy-commands.ts",
+    "delete-commands": "ts-node-dev ./scripts/delete-commands.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.0",
+    "ts-node": "^10.8.1",
+    "ts-node-dev": "^1.1.8"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.10",
+    "discord.js": "^13.6.0",
+    "node-fetch": "^2.6.7",
+    "sequelize": "^6.17.0",
+    "sqlite3": "^4.2.0",
+    "typescript": "^4.6.4"
+  }
+}

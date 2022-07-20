@@ -1,0 +1,6 @@
+node_modules/
+start.cmd
+.eslintrc.json
+tsconfig.json
+config.json
+.DS_Store
