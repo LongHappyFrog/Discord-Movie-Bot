@@ -4,3 +4,4 @@ start.cmd
 tsconfig.json
 config.json
 .DS_Store
+database/database.sqlite
