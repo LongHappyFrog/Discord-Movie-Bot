@@ -11,7 +11,7 @@ class ScheduleCommand {
 
 	public static data = new SlashCommandBuilder()
 		.setName('schedule')
-		.setDescription('Check details of a watched film')
+		.setDescription('Schedule a movie event')
 		.addStringOption(option =>
 			option.setName('film')
 				.setDescription('Film Name or IMDb Id')
